@@ -1,0 +1,102 @@
+   *{
+    margin: 0;
+}
+   
+   .menu-item{
+     border: 2px solid black;   
+     font-size: 30px;
+     color: green;   
+     background-color:rgba(230, 145, 56,0.9);
+    }
+    ul{
+        border: 10px solid darkorange  ;
+    }
+    #li{
+       font-variant: small-caps;
+       color: red;
+       border: none; 
+    }
+    input[type="text"]{
+        border: 5px solid seagreen;
+    }
+    a[href$="out"] {
+    color: red;
+}
+
+    #uniqueParagraph{
+        font-size: 25px;
+    }
+    .underline{
+        text-decoration: underline;
+    }
+    .main-container{
+        background-color: bisque;
+        padding: 20px;
+        width: 800px;
+        margin: 0 auto;        
+    }
+
+    li:first-child{
+        color: red;
+    }
+    li:last-child{
+        color: blue;
+    }
+    li:nth-child(2) {
+    background-color: green;
+}
+    p:nth-of-type(2){
+        color: lime;
+    }
+
+
+
+    #header{
+        color: violet !important;
+    }
+    .main-header{
+    
+        color: green;
+    }
+    
+    h1{color: blue; padding: 20px;
+    position: relative;}
+    h1{color: red ;}
+
+.parent {
+    color: blue;
+}
+
+.child {
+    font-size: 20px;
+}
+
+h1:hover{
+    color: chartreuse;
+}
+
+p::first-letter {
+    font-size: 200%;
+    color: red;
+}
+
+
+h1::before {
+  content: '';
+  display: block;
+  width: 100%;
+  border: 1px solid black;  
+  position:absolute;
+  top:40px;
+}
+
+.div-inline-block{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+p{color:darkgoldenrod}
+
+ul > li#listitem{
+    color: blueviolet;
+}
